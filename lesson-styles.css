@@ -1,0 +1,53 @@
+body {
+    max-width: 900px;
+    margin: auto;
+    padding: 30px;
+    line-height: 1.6;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    display: flex;
+    gap: 25px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid lightgray;
+}
+
+.lesson-navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.lesson-header {
+    margin-top: 40px;
+}
+
+.driving-question,
+.goals,
+.artifacts {
+    margin-top: 40px;
+    padding: 20px;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+}
+
+.checklist {
+    list-style: none;
+    padding-left: 0;
+}
+
+.checklist li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.checklist a {
+    text-decoration: none;
+}
+
+.artifacts ul {
+    padding-left: 20px;
+}
