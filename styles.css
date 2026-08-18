@@ -1,3 +1,102 @@
+/*************************
+    HOME PAGE
+*************************/
+
+/* Existing styles */
+
+/* ========================================
+   LESSON PAGE STYLES
+   Add below your existing stylesheet
+======================================== */
+
+.lesson-container {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 40px 0 72px;
+}
+
+.lesson-navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+
+.lesson-navigation a {
+    text-decoration: none;
+    color: var(--muted);
+}
+
+.lesson-navigation a:hover {
+    color: var(--text);
+}
+
+.lesson-header {
+    margin-bottom: 32px;
+}
+
+.lesson-header h1 {
+    margin-bottom: 8px;
+}
+
+.lesson-header h2 {
+    color: var(--accent);
+    font-size: 1.5rem;
+}
+
+.driving-question,
+.goals,
+.artifacts {
+    margin-bottom: 24px;
+    padding: 24px;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 16px;
+}
+
+.checklist {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.checklist li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 14px;
+}
+
+.checklist li:last-child {
+    margin-bottom: 0;
+}
+
+.checklist input[type="checkbox"] {
+    cursor: pointer;
+}
+
+.checklist a {
+    text-decoration: none;
+    color: var(--text);
+}
+
+.checklist a:hover {
+    color: var(--accent);
+}
+
+.artifacts ul {
+    padding-left: 20px;
+}
+
+.artifacts p {
+    margin-top: 20px;
+}
+
+/*************************
+    LESSON PAGES
+*************************/
+
+/* New styles */
+
 body {
     max-width: 900px;
     margin: auto;
